@@ -29,7 +29,7 @@ export default {
         stopTimer(){
             clearInterval(this.timer);
             this.mouseCatched = true;
-            this.$emit('endGame',this.score);
+            this.$emit('endGame',this.score);     
         }
     }
 }

@@ -31,4 +31,9 @@ export default {
         background-size: cover;
         background-repeat: no-repeat;
     }
+    p{
+        font-size: 2rem;
+        font-weight: 700;
+        color: #2c3e50;
+    }
 </style>

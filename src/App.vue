@@ -5,7 +5,9 @@
   <Block :delay="delay" :end="end" @endGame="endGame"></Block>
  </div>
  <div v-if="end">
-  <Result :score="score"></Result>
+  <Result :score="score">
+  
+  </Result>
  </div>
 
 </template>
@@ -13,6 +15,7 @@
 <script>
 import Block from './components/BLock.vue'
 import Result from './components/Result-View.vue'
+
 export default {
   name: 'App',
   components: {
@@ -51,5 +54,11 @@ data(){
   text-align: center;
   color: #2c3e50;
   margin-top: 60px;
+}
+button{
+  padding: 5px;
+  background-color: #2c3e50;
+  color: #fff;
+  border-radius: 5px;
 }
 </style>
